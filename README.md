@@ -15,25 +15,29 @@
 ### PC 端
 
 #### 主页面
-![PC主页面](screenshots/pc-home.png)
+![PC主页面](<img width="1064" alt="image" src="https://github.com/user-attachments/assets/9a86f85b-189e-461d-ba6d-bf320a7f7c78" />)
 
 #### 配置界面
-![PC配置界面](screenshots/pc-config.png)
+![PC配置界面](<img width="1020" alt="image" src="https://github.com/user-attachments/assets/6d45700f-d25c-464b-bf75-cfb6b02f3981" />)
 
 ### 移动端
 
 <div style="display: flex; gap: 20px;">
-  <img src="screenshots/mobile-home.png" alt="移动端主页面" width="200"/>
-  <img src="screenshots/mobile-config.png" alt="移动端配置界面" width="200"/>
+  <img src="<img width="209" alt="image" src="https://github.com/user-attachments/assets/08612c74-bdab-445d-bd0b-d98f750f931d" />
+" alt="移动端主页面" width="200"/>
+  <img src="<img width="209" alt="image" src="https://github.com/user-attachments/assets/7ba06c3a-8ba2-4213-ba58-2e35da23eb8b" />
+" alt="移动端配置界面" width="200"/>
 </div>
 
 ## 🛠️ 服务管理
 
 ### 启动服务
-![启动服务](screenshots/start-service.png)
+![启动服务](<img width="735" alt="image" src="https://github.com/user-attachments/assets/377b1969-20f2-4cf5-8bd2-ba0f31a1fa3b" />
+)
 
 ### 停止服务
-![停止服务](screenshots/stop-service.png)
+![停止服务](<img width="702" alt="image" src="https://github.com/user-attachments/assets/9cebab47-9367-43a2-acd8-1ecdd59724ef" />
+)
 
 ## 🙏 致谢
 
