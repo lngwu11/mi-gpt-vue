@@ -1,0 +1,218 @@
+.migpt-home {
+  background-color: #f0f8ff;
+  color: #333;
+  min-height: 100vh;
+  font-family: "Arial", "Microsoft YaHei", sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.background-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+      circle at 20% 30%,
+      rgba(135, 206, 250, 0.4) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 70%,
+      rgba(255, 182, 193, 0.4) 0%,
+      transparent 50%
+    );
+  filter: blur(40px);
+  animation: backgroundPulse 10s ease-in-out infinite alternate;
+  z-index: -1;
+}
+
+@keyframes backgroundPulse {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo-text {
+  color: #4a4a4a;
+}
+
+.logo-circle {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(45deg, #00bfff, #ff69b4);
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  animation: pulseLogo 2s infinite;
+}
+
+@keyframes pulseLogo {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #4a4a4a;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #00bfff;
+  color: white;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title-home {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(45deg, #00bfff, #ff69b4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientFlow 5s ease infinite;
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #4a4a4a;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  max-width: 340px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.introduction,
+.vision {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #00bfff;
+  margin-bottom: 1rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 191, 255, 0.2);
+}
+
+.feature-card i {
+  font-size: 2.5rem;
+  color: #00bfff;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  footer {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+  .hero-image {
+    max-width: 100%;
+  }
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}

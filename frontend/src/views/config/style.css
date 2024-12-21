@@ -1,0 +1,909 @@
+/* 全局样式 */
+body {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.config-page {
+  min-height: 100vh;
+  padding: 10px;
+  background: #f0f8ff;
+}
+
+.config-card {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.service-controls {
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+}
+
+.control-buttons {
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  margin-top: 10px !important;
+}
+.card-header {
+  background: linear-gradient(90deg, #3a7bd5, #00d2ff);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: auto;
+}
+
+.service-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+.status-tag {
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  line-height: 1;
+}
+
+.control-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.control-buttons .el-button {
+  flex: 1;
+  min-width: 80px;
+}
+
+.config-tabs {
+  padding: 15px;
+}
+
+.config-form {
+  max-width: 100%;
+  padding: 5px 15px !important;
+  box-sizing: border-box;
+}
+
+.el-collapse-item {
+  margin-bottom: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.el-collapse-item__header {
+  font-size: 16px;
+  padding: 12px 15px;
+}
+
+.el-collapse-item__content {
+  padding: 15px;
+}
+
+.el-form-item {
+  margin-bottom: 20px;
+  padding-right: 15px;
+}
+
+.form-tip {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.command-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.command-input {
+  width: 60px;
+}
+
+.form-actions {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.prompt-editor {
+  padding: 15px;
+  width: 100%;
+}
+
+.editor-container {
+  width: 100%;
+}
+
+.custom-textarea {
+  width: 100%;
+  min-width: 100%;
+}
+
+.preview-content {
+  width: 100%;
+  min-height: 200px;
+  max-height: 400px;
+  font-size: 13px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.variables-dialog .el-dialog {
+  margin-top: 10vh !important;
+  max-height: 80vh;
+}
+
+.guide-content {
+  padding: 10px 0;
+}
+
+.guide-content h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.variable-list .guide-section {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.variable-header code {
+  font-size: 12px;
+  padding: 2px 4px;
+}
+
+.variable-desc {
+  font-size: 12px;
+}
+
+.variable-value {
+  font-size: 11px;
+}
+
+.copy-btn {
+  padding: 2px 4px;
+  font-size: 11px;
+}
+
+.el-select,
+.el-input__inner {
+  width: 100%;
+}
+
+.keyword-select .el-tag {
+  margin: 2px;
+  border-radius: 12px;
+  padding: 0 6px;
+  font-size: 11px;
+}
+
+@media (min-width: 768px) {
+  .config-page {
+    padding: 20px;
+  }
+
+  .config-card {
+    max-width: 1200px;
+  }
+
+  .card-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+  }
+
+  .service-controls {
+    width: auto;
+  }
+
+  .control-buttons {
+    width: auto;
+    margin-top: 0;
+  }
+
+  .config-tabs {
+    padding: 30px;
+  }
+
+  .el-collapse-item__header {
+    font-size: 18px;
+    padding: 15px 20px;
+  }
+
+  .el-collapse-item__content {
+    padding: 24px 32px;
+  }
+
+  .form-tip {
+    font-size: 13px;
+  }
+
+  .command-input {
+    width: 80px;
+  }
+
+  .preview-content {
+    min-height: 300px;
+    max-height: 600px;
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  .prompt-editor {
+    padding: 20px;
+  }
+
+  .guide-content h3 {
+    font-size: 16px;
+  }
+
+  .variable-header code {
+    font-size: 13px;
+  }
+
+  .variable-desc {
+    font-size: 13px;
+  }
+
+  .variable-value {
+    font-size: 12px;
+  }
+
+  .copy-btn {
+    font-size: 12px;
+  }
+
+  .keyword-select .el-tag {
+    font-size: 12px;
+  }
+  .config-form {
+    padding: 0 30px;
+  }
+
+  .el-form-item {
+    padding-right: 30px;
+  }
+}
+
+.config-page {
+  padding: 20px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+.config-card {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.title {
+  font-size: 28px;
+  color: #fff;
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.config-form {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.el-collapse-item {
+  margin-bottom: 16px;
+  background-color: rgba(255, 255, 255, 0.98);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+::v-deep .el-collapse-item__header {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c3e50;
+  background-color: rgba(44, 62, 80, 0.05);
+  padding: 16px;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #3a7bd5, #00d2ff);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 24px;
+  margin-bottom: 0;
+}
+
+.el-button--primary {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.el-button--primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.status-tag {
+  border-radius: 4px;
+  padding: 6px 12px;
+}
+
+.control-buttons .el-button {
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.el-button {
+  flex: 0 0 auto;
+  min-width: 120px;
+}
+
+@media (max-width: 768px) {
+  .config-page {
+    padding: 10px;
+  }
+
+  .config-card {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .service-controls {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .status-tag {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .control-buttons {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .control-buttons .el-button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .config-tabs {
+    padding: 15px;
+  }
+
+  .el-collapse-item__header {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+
+  .el-collapse-item__content {
+    padding: 15px;
+  }
+
+  .el-form-item {
+    margin-bottom: 20px;
+  }
+
+  .command-group {
+    justify-content: space-between;
+  }
+
+  .command-input {
+    width: 60px;
+  }
+
+  .keyword-select .el-select {
+    width: 100%;
+  }
+}
+
+.el-form-item__label {
+  float: none;
+  display: block;
+  text-align: left;
+  padding: 0 0 10px;
+}
+
+.el-form-item__content {
+  margin-left: 0 !important;
+}
+
+.el-input-number {
+  width: 100%;
+}
+
+.el-select {
+  width: 100%;
+}
+
+.el-button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.el-button + .el-button {
+  margin-left: 0;
+}
+
+.el-popover {
+  max-width: 90%;
+}
+
+.el-input-group__append {
+  margin-right: 15px;
+}
+
+.editor-header {
+  margin-bottom: 20px;
+}
+
+.editor-header > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .editor-header > div {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .editor-header .el-button {
+    width: auto;
+  }
+}
+
+.header-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+
+.mode-switch {
+  margin: 0;
+  width: 100%;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: row; /* Changed to row for mobile */
+  justify-content: space-between; /* Added to spread buttons */
+  gap: 10px;
+  width: 100%;
+}
+
+.header-actions .el-button--text {
+  padding: 0;
+  height: 32px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Changed to center */
+  width: calc(50% - 5px); /* Take up half the width minus gap */
+}
+
+@media (min-width: 768px) {
+  .header-actions {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .mode-switch {
+    width: auto;
+  }
+
+  .header-buttons {
+    width: auto;
+  }
+
+  .header-actions .el-button--text {
+    width: auto;
+    justify-content: flex-start;
+  }
+
+  .header-actions .el-button {
+    margin: 0;
+  }
+}
+
+command-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 8px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.command-input {
+  flex: 1;
+  min-width: 60px;
+  max-width: 80px;
+}
+
+@media (max-width: 768px) {
+  .command-group {
+    padding-bottom: 8px;
+  }
+
+  .command-input {
+    min-width: 50px;
+  }
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.back-home-btn {
+  color: white;
+  padding: 0;
+}
+
+.back-home-btn:hover {
+  opacity: 0.8;
+}
+
+.config-card {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-header {
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  position: relative;
+}
+.back-btn {
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+.back-btn:hover {
+  opacity: 0.8;
+}
+
+.back-btn i {
+  font-size: 16px;
+}
+.title {
+  font-size: 24px;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.status-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 80px;
+}
+
+.status-tag {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .back-btn {
+    align-self: flex-start;
+  }
+
+  .title {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .status-group {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .service-controls {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .control-buttons {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .control-buttons .el-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .el-button + .el-button {
+    margin-left: 0;
+  }
+}
+
+.variable-highlight {
+  color: #409eff;
+  background-color: rgba(64, 158, 255, 0.1);
+  padding: 0 4px;
+  border-radius: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #c0c4cc;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #f5f7fa;
+}
+.preview-content {
+  min-height: 300px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding: 15px;
+  border: 1px solid #e4e7ed;
+  border-radius: 4px;
+  background-color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* 添加变量指南弹窗的样式 */
+.guide-content {
+  padding: 15px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.guide-content h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #303133;
+}
+
+.variable-list {
+  display: grid;
+  gap: 15px;
+}
+
+.guide-section {
+  padding: 12px;
+  border: 1px solid #ebeef5;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.variable-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.variable-header code {
+  font-family: Monaco, monospace;
+  background-color: #f0f2f5;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #409eff;
+  font-size: 13px;
+}
+
+.variable-desc {
+  color: #606266;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.variable-value {
+  color: #909399;
+  font-size: 12px;
+  background-color: #f5f7fa;
+  padding: 4px 8px;
+  border-radius: 4px;
+  word-break: break-all;
+}
+
+.copy-btn {
+  padding: 2px 8px;
+  font-size: 12px;
+  color: #409eff;
+}
+
+.copy-btn:hover {
+  color: #66b1ff;
+}
+
+/* 自定义滚动条样式 */
+.guide-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.guide-content::-webkit-scrollbar-thumb {
+  background-color: #c0c4cc;
+  border-radius: 3px;
+}
+
+.guide-content::-webkit-scrollbar-track {
+  background-color: #f5f7fa;
+}
+
+/* 响应式布局调整 */
+@media (max-width: 768px) {
+  .variable-guide-popover {
+    min-width: 300px !important;
+  }
+
+  .variable-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .variable-header code {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .copy-btn {
+    align-self: flex-end;
+  }
+}
+
+/* 修改变量指南弹窗的样式 */
+.variable-guide-popover {
+  min-width: 400px !important;
+}
+
+.guide-content {
+  padding: 15px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.variable-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+
+.variable-header code {
+  width: 50%;
+  font-family: Monaco, monospace;
+  background-color: #f0f2f5;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #409eff;
+  font-size: 13px;
+  word-break: break-all;
+  box-sizing: border-box;
+}
+
+.copy-btn {
+  width: 50%;
+  padding: 2px 8px;
+  font-size: 12px;
+  color: #409eff;
+  white-space: nowrap;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+/* 响应式布局调整 */
+@media (max-width: 768px) {
+  .variable-guide-popover {
+    min-width: 300px !important;
+  }
+
+  .variable-header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .variable-header code {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .copy-btn {
+    width: 50%;
+    align-self: center;
+  }
+}
