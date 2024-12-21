@@ -1,14 +1,62 @@
-pc端:<img width="1064" alt="image" src="https://github.com/user-attachments/assets/9a86f85b-189e-461d-ba6d-bf320a7f7c78" />
-<img width="1020" alt="image" src="https://github.com/user-attachments/assets/6d45700f-d25c-464b-bf75-cfb6b02f3981" />
+# MiGPT 可视化配置界面
 
-移动端：<img width="211" alt="image" src="https://github.com/user-attachments/assets/6f526bb5-95d3-4170-a0c9-9e683d3ec59d" />
-<img width="214" alt="image" src="https://github.com/user-attachments/assets/57f1588b-03bb-4814-a030-f8788d1f7c2b" />
-启动服务：
-<img width="736" alt="image" src="https://github.com/user-attachments/assets/e35ce225-9689-48a5-a1d6-3a59caed51f5" />
-停止服务：
-<img width="658" alt="image" src="https://github.com/user-attachments/assets/cc853913-b25c-4dfa-b10e-ecfed0ca392e" />
+基于 Vue 的 MiGPT 可视化配置界面，提供直观的服务管理和参数配置能力。
+
+## 🌟 特性
+
+- 💻 支持 PC 端和移动端自适应布局
+- 🎨 清晰直观的配置界面
+- 🚀 一键启动/停止服务
+- ⚙️ 可视化参数配置
+- 🔄 实时状态监控
+
+## 📱 界面预览
+
+### PC 端
+
+#### 主页面
+![PC主页面](screenshots/pc-home.png)
+
+#### 配置界面
+![PC配置界面](screenshots/pc-config.png)
+
+### 移动端
+
+<div style="display: flex; gap: 20px;">
+  <img src="screenshots/mobile-home.png" alt="移动端主页面" width="200"/>
+  <img src="screenshots/mobile-config.png" alt="移动端配置界面" width="200"/>
+</div>
+
+## 🛠️ 服务管理
+
+### 启动服务
+![启动服务](screenshots/start-service.png)
+
+### 停止服务
+![停止服务](screenshots/stop-service.png)
+
+## 🙏 致谢
+
+特别感谢 [@idootop](https://github.com/idootop) 提供的接口和服务能力支持。
+
+## 📝 配置说明
+
+### 基础配置
+- 支持服务启动/停止
+- 支持参数可视化配置
+- 实时状态反馈
+
+### 高级配置
+- 自定义模型参数
+- 系统性能监控
+- 日志实时查看
+
+## 💡 使用提示
+
+1. 确保系统环境已正确配置
+2. 访问配置界面进行参数设置
+3. 使用启动按钮开启服务
+4. 可随时查看服务状态
+5. 需要时可一键停止服务
 
 
-
-
-借助@idootop 大佬提供的接口和服务能力加入了vue可视化配置界面
