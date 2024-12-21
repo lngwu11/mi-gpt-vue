@@ -15,7 +15,7 @@
 ### PC 端
 
 #### 主页面
-[<img width="1064" alt="image" src="https://github.com/user-attachments/assets/9a86f85b-189e-461d-ba6d-bf320a7f7c78" />
+<img width="1064" alt="image" src="https://github.com/user-attachments/assets/9a86f85b-189e-461d-ba6d-bf320a7f7c78" />
 
 #### 配置界面
 <img width="1020" alt="image" src="https://github.com/user-attachments/assets/6d45700f-d25c-464b-bf75-cfb6b02f3981" />
