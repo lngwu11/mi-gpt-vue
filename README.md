@@ -23,10 +23,8 @@
 ### 移动端
 
 <div style="display: flex; gap: 20px;">
-  <img src="<img width="209" alt="image" src="https://github.com/user-attachments/assets/08612c74-bdab-445d-bd0b-d98f750f931d" />
-" alt="移动端主页面" width="200"/>
-  <img src="<img width="209" alt="image" src="https://github.com/user-attachments/assets/7ba06c3a-8ba2-4213-ba58-2e35da23eb8b" />
-" alt="移动端配置界面" width="200"/>
+  <img src="https://github.com/user-attachments/assets/08612c74-bdab-445d-bd0b-d98f750f931d" alt="移动端主页面" width="200"/>
+  <img src="https://github.com/user-attachments/assets/7ba06c3a-8ba2-4213-ba58-2e35da23eb8b" alt="移动端配置界面" width="200"/>
 </div>
 
 ## 🛠️ 服务管理
