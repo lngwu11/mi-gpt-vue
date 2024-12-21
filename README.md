@@ -154,3 +154,6 @@ main();
 ## License
 
 [MIT](https://github.com/idootop/mi-gpt/blob/main/LICENSE) License © 2024-PRESENT Del Wang
+
+
+借助@idootop 大佬提供的接口和服务能力加入了vue可视化配置界面
